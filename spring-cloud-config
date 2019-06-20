@@ -1,0 +1,9 @@
+server:
+  port:8804
+spring:
+  application:
+    name: eureka-config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.16.207.252:8801/eureka/
